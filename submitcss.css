@@ -1,0 +1,115 @@
+#outer {
+    background-color: antiquewhite;
+    width: 900px;
+    height: auto;
+    padding: 2ch;
+    border: 1px solid black;
+    position: justify;
+    align: center;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+}
+
+.image {
+    margin-right: auto;
+    margin-left: 675px;
+    margin-top: -50px;
+    margin-bottom: auto;
+    height: 200px;
+}
+
+.lmargin {
+    margin-left: 20px;
+}
+
+.innerbox1 {
+    width: 846px;
+    height: 260px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+}
+
+.innerbox {
+    width: 846px;
+    height: 210px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+}
+
+.btsub {
+    height: auto;
+    width: 100px;
+    background-color: green;
+    border-color: black;
+    color: white;
+    font: optional;
+}
+
+.btres {
+    height: auto;
+    width: 100px;
+    background-color: red;
+    border-color: black;
+    color: white;
+    font: optional;
+}
+
+.texts {
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.dled {
+    margin-left: 10px;
+}
+
+.forms {
+    margin-left: 10px;
+}
+
+.centertag {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lefttext {
+    margin-top: -103px;
+    margin-left: 450px;
+}
+
+.inputtext {
+    width: 330px;
+}
+
+.inputradio {
+    width: 105px;
+}
+
+.inputcheck {
+    width: 55px;
+}
+
+.inputtext:hover {
+    background-color: burlywood;
+    transition: 0.2s;
+}
+.hoverd:hover{
+background-color: burlywood;
+    transition: 0.2s;
+}
